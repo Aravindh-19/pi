@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 6;
-            int b = 8;
-            Console.WriteLine(a + b);
+            string name = "Aravindh";
+            int age = 22;
+            Console.WriteLine("Name:{0}", name);
             Console.ReadLine();
         }
     }
