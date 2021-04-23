@@ -10,15 +10,12 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            int f1, f2, result;
-            Console.WriteLine("Enter f1:");
-            Console.WriteLine("Enter f2:");
-            f1 = Convert.ToInt32(Console.ReadLine());
-            f2 = Convert.ToInt32(Console.ReadLine());
-            result = f1 + f2;
-            Console.WriteLine(result);
-
+            Console.WriteLine("Enter some value");
+            var x = Console.ReadLine();
+            Console.WriteLine(x);
+            Console.WriteLine(x.GetType());
             Console.ReadLine();
+
         }
     }
 }

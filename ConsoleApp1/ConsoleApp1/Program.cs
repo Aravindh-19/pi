@@ -10,10 +10,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int a = 6;
-            int b = 8;
-            Console.WriteLine(a + b);
-            Console.ReadLine();
         }
     }
 }
